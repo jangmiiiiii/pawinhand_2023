@@ -54,3 +54,44 @@ header .m_nav_open ul li {
 header .m_nav_open ul li a {
     font-size: 1.33rem;
 }
+/* main */
+main {}
+/* main-1. swiper-slide */
+/* .swiper 플러그인의 정식명칭 클래스는 웹 페이지 1장에서 swiper가 2개 이상 들어올 경우
+디자인이 강제로 중복될 수 있으므로 개별 아이디 및 클래스를 사용하여 선택자를 만들고 디자인한다. */
+main #pawin_slide {
+    width:1160px; height:650px;
+    background: yellow;
+}
+main #pawin_slide .swiper-wrapper {}
+main #pawin_slide .swiper-wrapper .swiper-slide {}
+main #pawin_slide .swiper-wrapper .slide1 {background:url(https://picsum.photos/id/15/1160);}
+main #pawin_slide .swiper-wrapper .slide2 {background:url(https://picsum.photos/id/27/1160);}
+main #pawin_slide .swiper-wrapper .slide3 {background:url(https://picsum.photos/id/33/1160);}
+main #pawin_slide .swiper-wrapper .slide4 {background:url(https://picsum.photos/id/42/1160);}
+main #pawin_slide .swiper-button-prev,main #pawin_slide .swiper-button-next {width: 40px; height: 40px;}
+main #pawin_slide .swiper-button-prev {
+    background: url(../images/prev.png) no-repeat;
+}
+main #pawin_slide .swiper-button-next {
+    background: url(../images/next.png) no-repeat;
+}
+/* swiper-slide 라이브러리에서 기본제공하는 이전,다음 숨기기 */
+main #pawin_slide .swiper-button-prev::after,
+main #pawin_slide .swiper-button-next::after {display: none;}
+
+main #pawin_slide2 {width:1160px; height:300px; background: pink;}
+main #pawin_slide2 .swiper-wrapper {}
+main #pawin_slide2 .swiper-wrapper .swiper-slide {}
+main #pawin_slide2 .swiper-wrapper .slide1 {background:url(https://picsum.photos/id/13/1160/300);}
+main #pawin_slide2 .swiper-wrapper .slide2 {background:url(https://picsum.photos/id/19/1160/300);}
+main #pawin_slide2 .swiper-wrapper .slide3 {background:url(https://picsum.photos/id/24/1160/300);}
+main #pawin_slide2 .swiper-button-prev,main #pawin_slide2 .swiper-button-next {width: 40px; height: 40px;}
+main #pawin_slide2 .swiper-button-prev {
+    background: url(../images/prev2.png);
+}
+main #pawin_slide2 .swiper-button-next {
+    background: url(../images/next2.png);
+}
+main #pawin_slide2 .swiper-button-prev::after,
+main #pawin_slide2 .swiper-button-next::after {display: none;}

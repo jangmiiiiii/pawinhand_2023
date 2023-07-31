@@ -29,7 +29,7 @@ close.addEventListener('click',function(){
 const pawin_slide = new Swiper('#pawin_slide',{
     //자동재생
     autoplay:{
-        delay:1000,//슬라이드 간격 (기본3초(3000)정도)
+        delay:10000,//슬라이드 간격 (기본3초(3000)정도) 1초=1000
         disableOnInteraction:false //사진을 옆으로 넘겨도 오토플레이로 넘어감
     },
     loop:true, //마지막에서 처음으로 넘어갈때 자연스럽게

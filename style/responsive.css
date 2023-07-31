@@ -5,6 +5,8 @@
 @media screen and (max-width:1160px) {
     /* 1160px 이하일 경우 좌우 15px 여백 적용 */
     header {width:calc(100% - 30px);}
+    main #pawin_slide {width:calc(100% - 30px);}
+    main #pawin_slide .swiper-wrapper .slide1 {background:url(../images/pawin_slide_m.jpg) center;}
 }/* 1160px end */
 @media screen and (max-width:900px) {
     header nav ul {display: none;}

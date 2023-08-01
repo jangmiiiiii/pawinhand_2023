@@ -28,6 +28,3 @@
     header nav .m_nav span:nth-child(3) {}
     
 }/* 900px end */
-@media screen and (max-width:430px) {
-    main #pawin_slide2 .swiper-wrapper {width:calc(100% - 30px);}
-}

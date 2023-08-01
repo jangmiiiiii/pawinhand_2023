@@ -7,6 +7,7 @@
     header {width:calc(100% - 30px);}
     main #pawin_slide {width:calc(100% - 30px);}
     main #pawin_slide .swiper-wrapper .slide1 {background:url(../images/pawin_slide_m.jpg) center;}
+
 }/* 1160px end */
 @media screen and (max-width:900px) {
     header nav ul {display: none;}
@@ -27,3 +28,6 @@
     header nav .m_nav span:nth-child(3) {}
     
 }/* 900px end */
+@media screen and (max-width:430px) {
+    main #pawin_slide2 .swiper-wrapper {width:calc(100% - 30px);}
+}

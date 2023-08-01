@@ -43,7 +43,7 @@ const pawin_slide = new Swiper('#pawin_slide',{
     }
     // direction:'vertical' //수직변경
 });
-const pawin_slide2 = new Swiper('#pawin_slide2',{
+/* const pawin_slide2 = new Swiper('#pawin_slide2',{
     autoplay:{delay:1000},
     loop:true,
     effect:'fade',
@@ -51,4 +51,25 @@ const pawin_slide2 = new Swiper('#pawin_slide2',{
         nextEl: '#pawin_slide2 .swiper-button-next',
         prevEl: '#pawin_slide2 .swiper-button-prev',
     }
-})
+}) */
+//pawin-slide2
+const pawin_slide2 = new Swiper('#pawin_slide2',{
+    autoplay:{delay:1000},
+    loop:true,
+    effect:'fade'
+});
+//입양정보 slide
+const dog_info_slide = new Swiper('#dog_info_slide',{
+    slidesPerView:'auto',//breakpoints옵션추가시 'auto', or 슬라이드가 4개가 보이게 하겠다 - 한번에 보이는 슬라이드 개수
+    spaceBetween:20, //슬라이드 사이 여백
+    autoplay:{delay:1000},
+    loop:true,
+    //swiper-slide 반응형 웹 옵션
+    breakpoints:{
+        //해상도:{옵션:값} , 
+        //해상도 순서는 작은해상도에서 큰 해상도 순으로 작성
+        // 700:{slidesPerView:2}, //700이상일때
+        900:{slidesPerView:3},//900 이상일때
+        1160:{slidesPerView:4} //1160이상일 경우 슬라이드 4개를 표시
+    },
+});
